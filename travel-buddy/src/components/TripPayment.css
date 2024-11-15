@@ -1,0 +1,37 @@
+.trip-payment-page {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trip-payment-page h1 {
+    font-size: 36px;
+    color: #ff6f61;
+  }
+  
+  .trip-payment-page button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .trip-payment-page button:hover {
+    background-color: #e04e3f;
+  }
+  
+  .trip-payment-page button:active {
+    transform: scale(0.98);
+  }
+  

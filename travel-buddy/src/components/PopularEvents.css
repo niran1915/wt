@@ -1,0 +1,98 @@
+/* .event {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .image-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .event-info {
+    text-align: left;
+  }
+  
+  .rating {
+    margin-top: 10px;
+  }
+   */
+
+   .component-container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Add background color for better visibility */
+  }
+  
+  h2 {
+    text-align: center; /* Center-align the header */
+    margin-bottom: 20px; /* Add margin below the header */
+  }
+  
+  .destination {
+    display: flex;
+    align-items: flex-start; /* Align items to the start for better positioning */
+    padding: 20px;
+    background-color: #fff;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1900px;
+    height: 350px; /* Adjust as needed */
+    margin: 15px auto;
+    position: relative; /* Allow absolute positioning of children */
+    transition: box-shadow 0.2s; /* Change transition to box-shadow */
+  }
+  
+  .destination-image {
+    width: 500px; /* Set a specific width for images */
+    height: 300px; /* Set a specific height for images */
+    object-fit: cover; /* Ensures images fill the specified dimensions without distortion */
+    border-radius: 10px; /* Optional: add some rounding */
+    border: 5px solid #000000; /* Set the border color and width */
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .destination-location {
+    font-size: 24px; /* Adjusted font size for location */
+    color: #000000; /* Change color for better contrast */
+    margin-top: 5px;
+    margin-left: -1280px; /* Reset margin to align with the description */
+  }
+  
+  .destination-description {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px; /* Keep this font size for the description */
+    color: #000000;
+    line-height: 1.5;
+    text-align: justify; /* Justifies the paragraph text for even alignment */
+  }
+  
+  .destination-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .heart-icon {
+    font-size: 30px;
+    /* Removed transition */
+  }
+  
+  /* New styles for the rating display */
+  .destination-rating {
+    position: absolute;
+    bottom: 10px; /* Position it at the bottom */
+    right: 20px; /* Position it to the right */
+    font-size: 22px; /* Adjusted font size for rating */
+    color: #000; /* Change color for better visibility */
+  }

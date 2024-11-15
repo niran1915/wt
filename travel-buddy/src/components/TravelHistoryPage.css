@@ -1,0 +1,39 @@
+.travel-history-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-list {
+    margin-bottom: 20px;
+  }
+  
+  .booking-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .booking-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .trip-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .go-back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .go-back-btn:hover {
+    background-color: #333;
+  }
+  

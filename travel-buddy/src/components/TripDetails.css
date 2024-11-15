@@ -1,0 +1,107 @@
+
+  
+  /* TripDetails page container */
+  .trip-details-page {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Header Styling */
+  .trip-details-page h1 {
+    font-size: 2.5em;
+    color: #5d5b8d;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #eba7f1;
+  }
+  
+  /* Styling the trip info container */
+  .trip-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  /* Styling individual trip info labels and values */
+  .trip-info p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .trip-info strong {
+    color: #901313;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Adding hover effect on the info */
+  .trip-info p:hover {
+    color: #5d5b8d;
+    transition: all 0.3s ease;
+  }
+  
+  /* Adding some rounded borders for a soft look */
+  .trip-info p {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .trip-info p:hover {
+    background-color: #f1a7c5;
+    color: white;
+  }
+  
+  /* Loading message style */
+  .loading {
+    font-size: 1.2em;
+    text-align: center;
+    color: #f1a7c5;
+    font-weight: bold;
+  }
+  
+  /* Animations on page load */
+  .trip-details-page {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Animation for smooth fade-in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 600px) {
+    .trip-details-page {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .trip-details-page h1 {
+      font-size: 2em;
+    }
+  
+    .trip-info p {
+      font-size: 1em;
+    }
+  }
+  

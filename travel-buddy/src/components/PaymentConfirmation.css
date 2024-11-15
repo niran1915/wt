@@ -1,0 +1,100 @@
+    /* General styling for the payment confirmation page */
+    .payment-confirmation {
+        margin: 20px auto;
+        max-width: 600px; /* Restrict max-width for the content */
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Styling for the header */
+    .payment-confirmation h1 {
+        text-align: center;
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    /* Styling for the confirmation details */
+    .confirmation-details {
+        margin-bottom: 20px;
+    }
+    
+    .confirmation-details p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+    }
+    
+    .confirmation-details strong {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    /* Styling for the buttons */
+    .confirmation-actions {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .confirmation-actions button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .confirmation-actions button:hover {
+        opacity: 0.9;
+    }
+    
+    /* Specific styles for the 'Print PDF' button */
+    .confirmation-actions button:first-child {
+        background-color: #4caf50;
+        color: white;
+    }
+    
+    .confirmation-actions button:first-child:hover {
+        background-color: #45a049;
+    }
+    
+    /* Specific styles for the 'Go to Homepage' button */
+    .confirmation-actions button:last-child {
+        background-color: #2196f3;
+        color: white;
+    }
+    
+    .confirmation-actions button:last-child:hover {
+        background-color: #0b7dda;
+    }
+    
+    /* Small adjustments for mobile responsiveness */
+    @media (max-width: 480px) {
+        .payment-confirmation {
+        margin: 10px;
+        padding: 15px;
+        }
+    
+        .payment-confirmation h1 {
+        font-size: 20px;
+        }
+    
+        .confirmation-details p {
+        font-size: 14px;
+        }
+    
+        .confirmation-actions {
+        flex-direction: column;
+        gap: 10px;
+        }
+    
+        .confirmation-actions button {
+        width: 100%;
+        }
+    }
+    

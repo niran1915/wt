@@ -1,0 +1,152 @@
+.travel-package-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.package-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+}
+
+.package-card {
+  flex: 0 0 250px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  min-height: 380px; 
+}
+
+.package-card h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.package-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.package-card button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.package-card button:hover {
+  background-color: #0056b3;
+}
+
+
+.package-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.book-now-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-now-container button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.book-now-container button:hover {
+  background-color: #218838;
+}
+
+
+.dropdown-container {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.dropdown-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dropdown-container select, 
+.dropdown-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.dropdown-container input[type="range"] {
+  width: 100%; 
+  margin-top: 10px;
+}
+
+.dropdown-container span {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.package-selection-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.package-selection-form h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.package-selection-form .dropdown-container {
+  margin: 20px 0;
+}
+
+.cost-display {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.book-now-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-now-container button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.book-now-container button:hover {
+  background-color: #218838;
+}
+

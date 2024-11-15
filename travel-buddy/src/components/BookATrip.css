@@ -1,0 +1,145 @@
+/* Overall Page Styles */
+.book-trip-page {
+  font-size: 22px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Subtle background color */
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Form Section Styles */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+select,
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+}
+
+select:focus,
+input[type="text"]:focus {
+  border-color: #ff5733;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Book Now Button */
+button.book-now {
+  padding: 12px 25px;
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button.book-now:hover {
+  background-color: #e04a29;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 768px) {
+  .book-trip-page {
+    font-size: 18px;
+  }
+
+  .form-section {
+    width: 90%;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  select,
+  input[type="text"] {
+    max-width: 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button.book-now {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Modal or Model Display Styling */
+.model-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.model-item {
+  flex: 0 0 auto;
+  width: 250px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.model-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.model-item h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.model-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+  

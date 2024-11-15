@@ -1,0 +1,35 @@
+.payment-transaction {
+    padding: 20px;
+  }
+  
+  .transaction-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .payment-method select, .transaction-input input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .payment-actions button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .payment-actions button:hover {
+    background-color: #45a049;
+  }
+  
+  .payment-status {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+  }
+  

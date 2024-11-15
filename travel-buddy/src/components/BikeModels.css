@@ -1,0 +1,33 @@
+.bike-models-page {
+    padding: 20px;
+  }
+  
+  .bike-models-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .bike-model {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .bike-model-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,28 @@
+.destination-detail-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.destination-image {
+  width: 30%;   /* Adjust width for better display */
+  max-width: 200px;  /* Maximum width for the image */
+  height: 200px; /* Increased height for larger image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 20px auto;  /* Centering the image horizontally */
+}
+
+.external-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.external-link:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: #333;
+  }
+  
+  /* Car Models Page */
+  .car-models-page {
+    padding: 20px;
+  }
+  
+  /* Container for the list of car models */
+  .car-models-list {
+    display: flex;
+    gap: 30px; /* Increased space between car models */
+    overflow-x: auto; /* Horizontal scrollbar */
+    padding-bottom: 20px; /* Space for scrollbar */
+    justify-content: flex-start;
+    align-items: stretch;  /* Align items vertically */
+  }
+  
+  .car-model {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;  /* Increased width of each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden; /* Prevent image overflow */
+  }
+  
+  .car-model:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Styling */
+  .car-model-image {
+    width: 100%;
+    height: 200px; /* Increased height of images */
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+  }
+  
+  /* Car Model Name */
+  .car-model h3 {
+    font-size: 1.7rem;  /* Increased font size */
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;  /* Highlighted color for the name */
+    margin: 15px 0 10px 0; /* Add margin for better spacing */
+    padding: 12px;
+    border-radius: 8px 8px 0 0;  /* Rounded corners on top */
+    text-transform: uppercase;  /* Make text uppercase */
+  }
+  
+  /* Description Text */
+  .car-model p {
+    font-size: 1.1rem; /* Slightly larger font for description */
+    text-align: center;
+    color: #666;
+    padding: 15px;
+    margin: 0;
+    line-height: 1.6; /* Improved line spacing for readability */
+    flex-grow: 1;  /* Makes the description take up available space */
+  }
+  
+  /* Scrollbar Styling */
+  .car-models-list::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  .car-models-list::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+  .car-models-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .car-models-list {
+      gap: 20px; /* Adjust gap for medium screens */
+    }
+  
+    .car-model {
+      width: 250px;  /* Slightly smaller on medium screens */
+    }
+  
+    .car-model h3 {
+      font-size: 1.5rem;  /* Smaller font for the model name */
+    }
+  
+    .car-model p {
+      font-size: 1rem;  /* Smaller font for descriptions */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .car-models-list {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px; /* Reduce gap for smaller screens */
+    }
+  
+    .car-model {
+      width: 90%;  /* Full width on small screens */
+    }
+  
+    .car-model h3 {
+      font-size: 1.3rem;
+    }
+  
+    .car-model p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .car-models-list {
+      gap: 10px; /* Adjust gap further for very small screens */
+    }
+  
+    .car-model {
+      width: 100%;  /* Full width on very small screens */
+    }
+  
+    .car-model h3 {
+      font-size: 1.2rem;
+    }
+  
+    .car-model p {
+      font-size: 0.9rem;
+    }
+  }
+  

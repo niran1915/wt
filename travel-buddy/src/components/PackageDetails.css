@@ -1,0 +1,131 @@
+.package-details-container {
+  max-width: 900px; /* Increased max width for better spacing */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px; /* Rounded corners for a softer look */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.package-details-container h1 {
+  font-size: 2.5em; /* Larger font size for the package title */
+  color: #333;
+  margin-bottom: 20px; /* Increased margin for separation */
+}
+
+.package-details-container p {
+  font-size: 1.1em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.package-image {
+  width: 100%;
+  height: 400px; /* Increased height for larger images */
+  object-fit: cover; /* Ensures the image fits properly */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.package-details-container input {
+  width: 80px;
+  padding: 8px;
+  margin-top: 15px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.package-details-container label {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.package-details-container .cost-calculation {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #28a745; /* Green color for the cost calculation */
+}
+
+.package-details-container .cost-calculation span {
+  color: #007bff; /* Highlight the dynamic value in blue */
+}
+
+.package-details-container .facilities {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.package-details-container .facilities li {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.package-details-container .hotel-details {
+  font-size: 1.1em;
+  color: #333;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.package-details-container button {
+  padding: 12px 24px;
+  background-color: #007bff; /* Primary color for the button */
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.package-details-container button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Responsive Design: for mobile screens */
+@media (max-width: 768px) {
+  .package-details-container {
+    padding: 15px;
+  }
+
+  .package-details-container h1 {
+    font-size: 2em; /* Adjust font size on mobile */
+  }
+
+  .package-details-container .cost-calculation {
+    font-size: 1em;
+  }
+
+  .package-details-container .cost-calculation span {
+    font-size: 1.2em; /* Larger dynamic cost text on smaller screens */
+  }
+
+  .package-image {
+    height: 250px; /* Adjust image height for mobile */
+  }
+
+  .package-details-container input {
+    width: 60px; /* Adjust input width for mobile */
+    font-size: 1em;
+  }
+
+  .package-details-container .facilities li {
+    font-size: 1em; /* Smaller font size for better readability on mobile */
+  }
+
+  .package-details-container button {
+    font-size: 1em; /* Smaller button text for mobile */
+  }
+}
+
+  

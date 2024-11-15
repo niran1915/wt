@@ -1,0 +1,90 @@
+
+
+/* The container for the payment page */
+.payment-page {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;         /* Max width of the container */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8); /* White with transparency */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow around the container */
+    text-align: center;      /* Center the content inside the container */
+    min-height: 400px;        /* Ensure a minimum height for centering */
+}
+
+/* Heading styles */
+.payment-container h1 {
+    font-size: 2.5em;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Payment details section */
+.payment-details h3, .payment-details p {
+    font-size: 1.3em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.payment-details strong {
+    color: #003366;
+}
+
+/* Button styles for payment actions */
+.payment-actions button {
+    padding: 15px 25px;
+    font-size: 1.1em;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effects */
+.payment-actions button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Specific styles for the first button (if you want different styles for 'Pay Now') */
+.payment-actions button:first-child {
+    background-color: #28a745; /* Green color for 'Pay Now' button */
+    margin-right: 15px;
+}
+
+/* Hover effect for the 'Pay Now' button */
+.payment-actions button:first-child:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Payment status message style */
+.payment-status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #003366;
+}
+
+/* Add responsiveness for smaller devices */
+@media (max-width: 768px) {
+    .payment-page {
+        padding: 20px;
+    }
+    
+    .payment-container h1 {
+        font-size: 2em;
+    }
+
+    .payment-details h3, .payment-details p {
+        font-size: 1.1em;
+    }
+    
+    .payment-actions button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}

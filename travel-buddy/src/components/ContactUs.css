@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Arial', sans-serif;
+}
+
+.component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dad7d7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin: 20px 0;
+}
+
+.contact-form {
+  background-color: #d3d3d3;
+  padding: 50px;
+  width: 1800px; /* Adjust width as needed */
+  border-radius: 8px;
+  box-shadow: 0px 0px 50px rgba(2, 2, 2, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex; /* Use flexbox to arrange fields */
+  justify-content: space-between; /* Space out fields */
+  gap: 50px; /* Increase gap between textboxes */
+  margin-bottom: 30px; /* Additional space below the row */
+}
+
+.form-group {
+  flex: 1; /* Make the group take equal width */
+}
+
+.form-group label {
+  font-size: 27px; /* Adjusted font size */
+  color: black;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  margin-top: 10px;
+  height: 200px; /* Height for the textarea */
+}
+
+.message-group {
+  margin-top: 30px; /* Additional space above the message group */
+}
+
+.message-group label {
+  position: absolute;
+  font-size: 27px;
+  margin-left: 815px; /* Position label on top of the textbox */
+  margin-top: -27px;
+  background-color: #d3d3d3;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.faq {
+  margin-top: 50px; /* Space above FAQ */
+  width: 100%; /* Full width for the FAQ section */
+  text-align: left; /* Align text to the left */
+}
+
+.faq h3 {
+  margin-bottom: 20px;
+  font-size: 30px; /* Space below the FAQ title */
+}
+
+.faq-item {
+  font-size: 30px;
+  margin-bottom: 15px; /* Space between FAQ items */
+}
+
+.faq-question,
+.faq-answer {
+  display: block; /* Ensure each is on a new line */
+  margin-left: 0; /* Align to the left */
+}
+
+.faq-question {
+  font-weight: bold;
+  font-size: 40px; /* Make the question bold */
+}
+
+.faq-answer {
+  margin-left: 20px; /* Optional indentation for answers */
+  font-size: 30px;
+}
+
+button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  align-self: center; /* Center the button */
+  margin-top: 20px; /* Space above the button */
+}
